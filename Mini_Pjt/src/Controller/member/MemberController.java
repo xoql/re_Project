@@ -38,7 +38,7 @@ public class MemberController extends HttpServlet {
 		}
 		System.out.println("들어옴?"+command);
 		String viewPage = null;
-		String perfix ="/WEB-INF/views/member/";
+		String perfix ="/views/member/";
 		try{
 			if(command.equals("/member/joinForm.do")){
 			
