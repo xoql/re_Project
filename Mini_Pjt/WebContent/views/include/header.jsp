@@ -13,7 +13,7 @@
 
 <%-- <link href="<c:url value="../resources/css/menu.css" />" rel="stylesheet">
  --%> 
- <link rel="stylesheet" type="text/css" href="/resources/css/menu.css">
+ <link rel="stylesheet" type="text/css" href="../resources/css/menu.css">
 
 
 

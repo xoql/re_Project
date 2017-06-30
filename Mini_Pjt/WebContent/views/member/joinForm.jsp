@@ -7,38 +7,31 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
-	
-	section{
-		margin-top: 70px;
-	}
-	
-	article{
-		padding: 15px;
-	}
-	
+
 	.input-group{
 		width: 550px;
 	}
-	
-	section{
-		text-align: center;
 		
-	}
-	
 	div{
 		margin: 0 auto;
 	}
 	
+	.text-center{
+		text-align: center;
+	}
 </style>
+
 </head>
 
 <body>
 
+
+<section class="container-fluid">
+<div class="row content">
 <%@include file="../include/menu.jsp" %>
-<section class="container">
-	<article class="col-xs-9">
+	<article class="col-xs-9 text-center">
 	<header><h2>회원 가입</h2></header>
-	<form action="${path}/member/join.do" method="post" name="Join">
+	<form action="${path}/member/join.do" method="post" name="Join" onsubmit="return chk()">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
       <input id="u_id" type="text" class="form-control" name="u_id" placeholder="아이디" > 
@@ -68,14 +61,14 @@
    
     
     <div>
-    	<button class="btn btn-danger" type="button" id="join_Btn">회원가입</button>
+    	<button class="btn btn-danger" type="submit" id="join_Btn">회원가입</button>
     </div> 
   </form>
   
 	
 	</article>
 
-	
+	</div>
 </section>
 
 </body>

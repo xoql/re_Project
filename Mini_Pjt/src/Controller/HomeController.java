@@ -17,7 +17,7 @@ import Model.member.DAO.MemberDAOImpl;
 /**
  * Servlet implementation class HomeController
  */
-@WebServlet("/")
+@WebServlet("/home")
 public class HomeController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

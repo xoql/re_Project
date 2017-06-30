@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 
 <div class="col-xs-3 sidenav">
-	<h4>중앙정보 처리 학원</h4>
+	<h4><a href="${path }/home">중앙정보 처리 학원</a></h4>
     <c:if test="${user == null }">
     <ul class="nav navbar-nav">
         <li><a href="${path }/member/joinForm.do"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
